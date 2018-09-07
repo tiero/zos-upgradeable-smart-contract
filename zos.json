@@ -1,0 +1,7 @@
+{
+  "name": "zos-upgradeable-smart-contract",
+  "version": "0.1.0",
+  "contracts": {
+    "MyContract": "MyContract"
+  }
+}

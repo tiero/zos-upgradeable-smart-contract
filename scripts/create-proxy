@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter BIP-39 mnemonic: "
+read HDWALLET_MNEMONIC
+echo "Enter contract Name: "
+read CONTRACT
+echo "Enter arguments for initialization, comma separated: "
+read ARGS
+HDWALLET_MNEMONIC=$HDWALLET_MNEMONIC node_modules/.bin/zos create $CONTRACT --args $ARGS

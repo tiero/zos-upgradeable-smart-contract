@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Enter BIP-39 mnemonic: "
+read HDWALLET_MNEMONIC
+HDWALLET_MNEMONIC=$HDWALLET_MNEMONIC node_modules/.bin/zos push

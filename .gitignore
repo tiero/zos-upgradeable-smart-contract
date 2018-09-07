@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+# ZOS
+zos.*.json
+.zos.session
+
+# truffle
+build
+

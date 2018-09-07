@@ -1,0 +1,23 @@
+{
+  "name": "zos-upgradeable-smart-contract",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ganache": "node_modules/.bin/ganache-cli --port 9545",
+    "zos": "node_modules/.bin/zos",
+    "deploy": "sh ./scripts/deploy",
+    "update": "sh ./scripts/update",
+    "create": "sh ./scripts/create-proxy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle-hdwallet-provider": "0.0.6",
+    "zos": "^1.4.1"
+  },
+  "dependencies": {
+    "zos-lib": "^1.4.1"
+  }
+}
